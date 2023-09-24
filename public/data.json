@@ -1,0 +1,111 @@
+[
+    {
+      "tag": "Health",
+      "headline": "Clean water for children",
+      "id": 1,
+      "amount": 1000,
+      "description": "Good health is the cornerstone of a child's development and well-being. It forms the basis for physical, mental, and emotional growth. Adequate nutrition, regular exercise, and proper healthcare contribute to a strong immune system, ensuring children are resilient against illnesses and infections. Additionally, good health supports optimal brain function, enhancing learning and cognitive abilities.",
+      "color": "#0052FF",
+      "bg_color": "#0052FF26"
+    },
+    {
+      "tag": "Education",
+      "headline": "Good education",
+      "id": 2,
+      "amount": 750,
+      "description": "A good education for children is paramount, setting the foundation for their future. It equips them with essential life skills, critical thinking abilities, and knowledge necessary for success. A well-rounded education promotes creativity, curiosity, and problem-solving skills, fostering a love for learning from an early age.",
+      "color": "#FF444A",
+      "bg_color": "#FF444A26"
+    },
+    {
+      "tag": "Clothing",
+      "headline": "Used Clothing Drive",
+      "id": 3,
+      "amount": 1200,
+      "description": "Clothing is an essential aspect of a child's well-being and development. It provides protection from the elements, ensuring warmth and comfort. Properly fitted clothing allows for unrestricted movement, promoting physical activity and play, which are vital for a child's growth and motor skill development. Moreover, clothing plays a role in building a child's self-esteem and confidence, allowing them to express their personality and creativity through various styles and colors.",
+      "color": "#79C23F",
+      "bg_color": "#79C23F26"
+    },
+    {
+      "tag": "Food",
+      "headline": "Better Food for Everyone",
+      "id": 4,
+      "amount": 900,
+      "description": "Good food is the bedrock of a child's health and vitality. Proper nutrition fuels their growth, providing essential vitamins and minerals necessary for developing strong bones, muscles, and organs. A balanced diet supports the immune system, helping children fight off infections and illnesses, ensuring their active participation in school and play.",
+      "color": "#F87147",
+      "bg_color": "#F8714726"
+    },
+    {
+      "tag": "Food",
+      "headline": "Better Food for Everyone",
+      "id": 5,
+      "amount": 500,
+      "description": "In many communities, children face challenges in accessing nutritious food due to economic constraints or limited resources. Addressing food insecurity is essential to ensuring that every child has access to sufficient and nutritious meals. By investing in nutrition programs and initiatives, we not only improve the immediate well-being of children but also invest in a healthier, more prosperous future, where children can reach their full potential. Ultimately, providing good food for children is an investment in their health, education, and overall happiness.",
+      "color": "#F87147",
+      "bg_color": "#F8714726"
+    },
+    {
+      "tag": "Clothing",
+      "headline": "Used Clothing Drive",
+      "id": 6,
+      "amount": 1100,
+      "description": "In some regions, access to adequate clothing can be a challenge due to socioeconomic factors. Addressing this need is crucial to ensure every child has the opportunity to dress comfortably and appropriately. Through initiatives that provide clothing to disadvantaged children, we can help bridge the gap and promote equality, allowing all children to enjoy the benefits of proper clothing for their overall well-being and growth.",
+      "color": "#79C23F",
+      "bg_color": "#79C23F26"
+    },
+    {
+      "tag": "Education",
+      "headline": "Good education",
+      "id": 7,
+      "amount": 850,
+      "description": "In today's rapidly evolving world, a good education is more important than ever, preparing children to adapt and thrive in various environments. It empowers them to make informed decisions, contribute positively to society, and achieve their aspirations, ultimately shaping a brighter and more equitable future.",
+      "color": "#FF444A",
+      "bg_color": "#FF444A26"
+    },
+    {
+      "tag": "Health",
+      "headline": "Clean water for children",
+      "id": 8,
+      "amount": 950,
+      "description": "Ensuring good health for children is also about creating safe and nurturing environments. Clean air, safe water, and adequate sanitation contribute to overall well-being. Promoting a positive mental health environment, fostering emotional support, and teaching stress management skills are equally important. Ultimately, prioritizing the health of children not only benefits them individually but also leads to a healthier and more prosperous society.",
+      "color": "#0052FF",
+      "bg_color": "#0052FF26"
+    },
+    {
+      "tag": "Health",
+      "headline": "Clean water for children",
+      "id": 9,
+      "amount": 800,
+      "description": "Investing in children's health is an investment in the future. A healthy generation grows into productive adults, contributing to society and the global community. By prioritizing access to nutritious food, healthcare, and a nurturing environment, we equip children with the tools to thrive and reach their full potential, paving the way for a brighter and healthier future.",
+      "color": "#0052FF",
+      "bg_color": "#0052FF26"
+    },
+    {
+      "tag": "Education",
+      "headline": "Good education",
+      "id": 10,
+      "amount": 700,
+      "description": "Furthermore, education is a powerful tool to break the cycle of poverty, offering children opportunities for a better future. It fosters confidence and self-esteem, encouraging them to dream big and reach for the stars. A strong educational system ensures that children have access to resources, mentors, and experiences that broaden their horizons and enrich their lives.",
+      "color": "#FF444A",
+      "bg_color": "#FF444A26"
+    },
+    {
+      "tag": "Clothing",
+      "headline": "Used Clothing Drive",
+      "id": 11,
+      "amount": 600,
+      "description": "Clothing holds immense significance for children as it goes beyond mere covering. It allows children to express their individuality and creativity, shaping their identity. Comfortable clothing is vital for a child's well-being, promoting a sense of ease and confidence. Well-fitted clothes support their physical development, aiding in posture and movement.",
+      "color": "#79C23F",
+      "bg_color": "#79C23F26"
+    },
+    {
+      "tag": "Food",
+      "headline": "Better Food for Everyone",
+      "id": 12,
+      "amount": 950,
+      "description": "Good food is the cornerstone of a child's growth and development. It provides essential nutrients crucial for physical and mental growth, supporting overall well-being. Adequate nutrition supports a strong immune system, enabling children to ward off illnesses and infections. A well-balanced diet, rich in vitamins, minerals, and proteins, contributes to optimal brain function, improving concentration and learning abilities.",
+      "color": "#F87147",
+      "bg_color": "#F8714726"
+    }
+  ]
+  
