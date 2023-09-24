@@ -30,7 +30,7 @@ Statistics
 </NavLink>
     </div>
     return (
-        <div className='container mx-auto py-5 md:px-5'>
+        <div className='container mx-auto py-3 md:px-5'>
             <div className="navbar bg-base-100 bg-opacity-60">
   <div className="navbar-start">
     <div className="dropdown">
@@ -43,7 +43,7 @@ Statistics
 
       </ul>
     </div>
-    <img src={logo} alt="" />
+    <img className='h-16' src={logo} alt="" />
   </div>
   <div className="navbar-center navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
