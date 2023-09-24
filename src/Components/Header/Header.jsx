@@ -12,7 +12,7 @@ Home
 </NavLink>
 
 <NavLink
-  to="/messages"
+  to="/donation"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "text-[#FF444A] font-bold underline" : ""
   }
