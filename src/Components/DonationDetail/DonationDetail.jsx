@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const DonationDetail = ({card}) => {
-    console.log(card);
     const {tag,headline,img,bg_color,color,text_bg,amount,id} = card;
     return (
         <div className="w-80 h-fit md:w-full mx-auto md:mx-0 rounded-xl md:flex gap-0">
