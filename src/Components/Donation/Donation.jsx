@@ -16,11 +16,13 @@ const Donation = () => {
         <>
         <div className="grid lg:grid-cols-2 items-center gap-4 md:px-5 lg:px-10">
             {
-             cards.slice(0,count).map((card,idx) => <DonationDetail key={idx} card={card}/>)
+             cards?.slice(0,count)?.map((card,idx) => <DonationDetail key={idx} card={card}/>)
             }
         </div>
         <div className="flex justify-center my-9">
+        <div className={`${cards?.length > 4? 'contents' : 'hidden'}`}>
             <button onClick={() => setCount(15)} className={`btn bg-green-700 text-white hover:bg-blue-700 ${count>4 ? 'hidden': ''}`}>See All</button>
+        </div>
         </div>
 
         </>
