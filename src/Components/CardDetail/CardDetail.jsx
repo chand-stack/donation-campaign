@@ -2,13 +2,18 @@ import PropTypes from 'prop-types';
 import swal from 'sweetalert';
 const CardDetail = ({card}) => {
 
+    
     const infoHandler = () => {
-        const lsArray = [];
-        lsArray.push(card);
-        localStorage.setItem('cards',JSON.stringify(lsArray))
+        
+        const get = JSON.parse(localStorage.getItem('cards')) || []
+        get.push(card)
+        
+        const updateArray = JSON.stringify(get)
+
+        localStorage.setItem('cards',updateArray)
         swal("Great!", "Donated Successfully!", "success");
     }
-    // console.log(card);
+    
    const {img,amount,color,headline,description} = card;
     return (
         <div className="space-y-9">
