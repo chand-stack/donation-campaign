@@ -6,34 +6,32 @@ import Donation from "../Components/Donation/Donation";
 import Statistics from "../Components/Statistics/Statistics";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
 
-
-const createdRoot = createBrowserRouter ([
-    {
-        path: '/',
-        element: <MainLayout></MainLayout>,
-        errorElement: <ErrorPage></ErrorPage>,
-        children: [
-            {
-                path: '/',
-                element: <Home></Home>,
-                loader: () => fetch('../../public/data.json')
-            },
-            {
-                path: '/info/:id',
-                element: <CardInfo></CardInfo>,
-                loader: () => fetch('../../public/data.json')
-
-            },
-            {
-                path: '/donation',
-                element: <Donation></Donation>
-            },
-            {
-                path : '/statistics',
-                element: <Statistics></Statistics>
-            }
-        ]
-    }
-])
+const createdRoot = createBrowserRouter([
+  {
+    path: "/",
+    element: <MainLayout></MainLayout>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+        loader: () => fetch("../../public/data.json"),
+      },
+      {
+        path: "/info/:id",
+        element: <CardInfo></CardInfo>,
+        loader: () => fetch("../../public/data.json"),
+      },
+      {
+        path: "/donation",
+        element: <Donation></Donation>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
+      },
+    ],
+  },
+]);
 
 export default createdRoot;
