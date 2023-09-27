@@ -26,14 +26,16 @@ const Home = () => {
 
   useEffect(() => {
     setcard(cards);
-  }, []);
+  }, [cards]);
+
+  // console.log(Array.isArray(card));
 
   return (
     <div>
       <HomeBanner searchHandler={searchHandler}></HomeBanner>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 container mx-auto gap-3 lg:px-16 my-24">
         {card?.map((card) => (
-          <HomeCard key={card?.id} card={card} />
+          <HomeCard key={card?.id} card={card} log/>
         ))}
       </div>
     </div>

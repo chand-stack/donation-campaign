@@ -15,12 +15,12 @@ const createdRoot = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../../public/data.json"),
+        loader: () => fetch("data.json"),
       },
       {
         path: "/info/:id",
         element: <CardInfo></CardInfo>,
-        loader: () => fetch("../../public/data.json"),
+        loader: () => fetch("data.json"),
       },
       {
         path: "/donation",
